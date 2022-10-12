@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   TODO: 添加描述内容
   }
 
-  s.homepage     = "https://gitee.com/WHWorkDevelopment/AWHOilSwift-iOS"
+  s.homepage     = "https://github.com/zhangwen31/AWHOilSwift"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   s.author             = { "王恒" => "1066026709@qq.com" }
   # Or just: s.author    = "王恒"
   # s.authors            = { "王恒" => "1066026709@qq.com" }
-  # s.social_media_url   = "https://twitter.com/王恒"
+  s.social_media_url   = "https://github.com/zhangwen31/AWHOilSwift.git"
 
   # ――― Platform sifics 平台sifics――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -86,7 +86,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
-  s.ios.deployment_target = "13.0"
+  s.ios.deployment_target = "10.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -100,7 +100,7 @@ Pod::Spec.new do |s|
   #  #支持git、hg、bzr、svn和HTTP。
   #
 
-  s.source       = { :git => "https://gitee.com/WHWorkDevelopment/AWHOilSwift-iOS.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/zhangwen31/AWHOilSwift.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code 源代码――――――――――――――――――――――――――――――――― #
@@ -115,16 +115,16 @@ Pod::Spec.new do |s|
   #  不包括公共头文件将使所有头文件公开。
   #
 
-  s.source_files  = "AWHOilSwift/**/*.{h,m,swift}"
+#  s.source_files  = "AWHOilSwift/**/*.{h,m,swift}"
 #  # s.exclude_files = "Classes/Exclude"   #排除文件
 #
-  s.public_header_files = "AWHOilSwift/**/*.h"
+#  s.public_header_files = "AWHOilSwift/**/*.h"
 
-#  s.vendored_frameworks = ['AWHOilSwift.framework']
-#
-#  s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64'}
-#
-#  s.source_files = 'AWHOilSwift.framework/Headers/*h'
+  s.vendored_frameworks = ['AWHOilSwift.framework']
+
+  s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64'}
+
+  s.source_files = 'AWHOilSwift.framework/Headers/*h'
 
 
   # ――― Resources 资源――――――――――――――――――――――――――――――――――― #
@@ -153,8 +153,8 @@ Pod::Spec.new do |s|
   #  其名称的lib前缀。
   #
 
-  s.framework  = "Foundation"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+#  s.framework  = "Foundation"
+#  # s.frameworks = "SomeFramework", "AnotherFramework"
 #  s.vendored_framework = "#{s.name}.framework"
 
   # s.library   = "iconv"
@@ -171,11 +171,12 @@ Pod::Spec.new do |s|
   #  您可以包含多个依赖项以确保其正常工作。
 
    s.requires_arc = true
-#   s.static_framework = true
-  s.swift_version='5.0'
+  # s.static_framework = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.dependency 'Charts'
+    s.swift_version='5.0'
+    s.dependency 'Charts'
+  
 
 end
