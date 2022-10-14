@@ -86,7 +86,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
-  s.ios.deployment_target = "10.0"
+  s.ios.deployment_target = "13.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -172,10 +172,12 @@ Pod::Spec.new do |s|
 
    s.requires_arc = true
   # s.static_framework = true
+  
+  s.swift_version='5.0'
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-    s.swift_version='5.0'
+    
     s.dependency 'Charts'
   
 
