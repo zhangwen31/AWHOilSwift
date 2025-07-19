@@ -1,7 +1,7 @@
 framework module AWHOilSwift {
   umbrella header "AWHOilSwift.h"
-
   export *
+
   module * { export * }
 }
 

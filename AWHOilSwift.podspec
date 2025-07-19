@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AWHOilSwift"
-  s.version      = "0.0.2"
+  s.version      = "1.0.0"
   s.summary      = "A short description of AWHOilSwift."
 
   # This description is used to generate tags and improve search results.

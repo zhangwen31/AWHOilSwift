@@ -26,7 +26,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,assign)NSInteger m;
 
-- (NSString *)getDetailsString:(int)type;
+@property (nonatomic,strong)NSString *lat;
+
+@property (nonatomic,strong)NSString *lng;
+
+@property (nonatomic,assign)BOOL acc;
+
+- (NSString *)getDetailsString:(int)type precision:(int)precision;
 
 @end
 
