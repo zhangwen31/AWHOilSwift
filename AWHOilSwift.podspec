@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AWHOilSwift"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A short description of AWHOilSwift."
 
   # This description is used to generate tags and improve search results.
@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  作者元数据―――――――――――――――――――――――――――――― #
@@ -82,7 +82,7 @@ Pod::Spec.new do |s|
   #  部署目标。您可以选择在平台之后包含目标。
   #
 
-  s.platform     = :ios
+  s.platform     = :ios, "13.0"
   # s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
@@ -122,7 +122,13 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = ['AWHOilSwift.framework']
 
-  #s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64'}
+  s.pod_target_xcconfig = {
+    "IPHONEOS_DEPLOYMENT_TARGET" => "13.0",
+    'VALID_ARCHS' => 'x86_64 armv7 arm64'
+  }
+  s.user_target_xcconfig = {
+    "IPHONEOS_DEPLOYMENT_TARGET" => "13.0"
+  }
 
   s.source_files = 'AWHOilSwift.framework/Headers/*h'
 

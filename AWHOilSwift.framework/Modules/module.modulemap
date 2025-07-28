@@ -4,8 +4,3 @@ framework module AWHOilSwift {
 
   module * { export * }
 }
-
-module AWHOilSwift.Swift {
-  header "AWHOilSwift-Swift.h"
-  requires objc
-}
