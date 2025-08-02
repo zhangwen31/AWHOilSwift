@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata 规范元数据 ――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AWHOilSwift"
   s.version      = "1.0.2"
-  s.summary      = "A short description of AWHOilSwift."
+  s.summary      = "石油行业数据可视化工具库"
   s.description  = %{
-  AWHOilSwift 是一个用于 [具体功能] 的 Swift 库，它提供了 [列举主要功能] 等功能，帮助开发者更高效地实现 [具体业务场景]。
+    AWHOilSwift 是一个专注于石油行业数据可视化的 Swift 库，基于 DGCharts 扩展，提供图表交互、数据解析和自定义标记视图等功能，简化石油监测场景的开发流程。
   }
   s.homepage     = "https://github.com/zhangwen31/AWHOilSwift"
 
@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
 
   # ――― Author Metadata  作者元数据―――――――――――――――――――――――――――――― #
   s.author             = { "王恒" => "1066026709@qq.com" }
-  s.social_media_url   = "https://github.com/zhangwen31/AWHOilSwift.git"
+  s.social_media_url   = "https://github.com/zhangwen31/AWHOilSwift"
 
-  # ――― Platform sifics 平台sifics――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Platform sifics 平台配置――――――――――――――――――――――――――――――――――――――――― #
   s.platform     = :ios, "13.0"
   s.ios.deployment_target = "13.0"
 
@@ -23,26 +23,26 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/zhangwen31/AWHOilSwift.git", :tag => "#{s.version}" }
 
   # ――― Source Code 源代码――――――――――――――――――――――――――――――――― #
-  s.vendored_frameworks = ['AWHOilSwift.framework']
-  s.source_files = 'AWHOilSwift.framework/Headers/*h'
+  s.vendored_frameworks = "AWHOilSwift.framework"  # 确保框架包含 x86_64 和 arm64 架构
 
+  # 关键配置：强制框架搜索路径和架构兼容
   s.pod_target_xcconfig = {
-    'IPHONEOS_DEPLOYMENT_TARGET' => "13.0",
-    'VALID_ARCHS' => 'x86_64 arm64'
+    "IPHONEOS_DEPLOYMENT_TARGET" => "13.0",
+    "VALID_ARCHS" => "x86_64 arm64",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "arm64",  # 模拟器排除 arm64
+    "EXCLUDED_ARCHS[sdk=iphoneos*]" => "x86_64",       # 真机排除 x86_64
+    "DEFINES_MODULE" => "YES",
+    "FRAMEWORK_SEARCH_PATHS" => "$(inherited) $(SRCROOT)/Pods/DGCharts **",  # 递归搜索 DGCharts
+    "OTHER_LDFLAGS" => "-framework DGCharts"  # 强制链接 DGCharts
   }
-
-  # ――― Resources 资源――――――――――――――――――――――――――――――――――― #
-  # 如果有资源文件，配置如下
-  # s.resources = ['Resources/AWHOilSwiftLocalizable.bundle']
+  
+  s.user_target_xcconfig = s.pod_target_xcconfig
 
   # ――― Project Linking 项目链接―――――――――――――――――――――――――――――― #
-  # 如果需要链接其他框架，可添加如下配置
-  # s.framework  = "Foundation"
+  s.frameworks = "UIKit", "Foundation", "CoreGraphics"
 
   # ――― Project Settings 项目设置―――――――――――――――――――――――――――― #
   s.requires_arc = true
-  s.swift_version = '5.0'
-  s.dependency 'DGCharts', '~> 5.1.0'
-  
-  
+  s.swift_version = "5.0"
+  s.dependency "DGCharts", "5.1.0"  # 锁定具体版本，避免兼容问题
 end
