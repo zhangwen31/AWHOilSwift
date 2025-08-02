@@ -35,8 +35,6 @@ Pod::Spec.new do |s|
     "FRAMEWORK_SEARCH_PATHS" => "$(inherited) $(SRCROOT)/Pods/DGCharts **",  # 递归搜索 DGCharts
     "OTHER_LDFLAGS" => "-framework DGCharts"  # 强制链接 DGCharts
   }
-  
-  s.user_target_xcconfig = s.pod_target_xcconfig
 
   # ――― Project Linking 项目链接―――――――――――――――――――――――――――――― #
   s.frameworks = "UIKit", "Foundation", "CoreGraphics"
