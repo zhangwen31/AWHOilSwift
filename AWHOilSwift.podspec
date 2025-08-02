@@ -27,12 +27,9 @@ Pod::Spec.new do |s|
   s.source_files = 'AWHOilSwift.framework/Headers/*h'
 
   s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'IPHONEOS_DEPLOYMENT_TARGET' => "13.0",
     'VALID_ARCHS' => 'x86_64 arm64'
   }
-  
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # ――― Resources 资源――――――――――――――――――――――――――――――――――― #
   # 如果有资源文件，配置如下
