@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
   # ――― Project Settings 项目设置―――――――――――――――――――――――――――― #
   s.requires_arc = true
   s.swift_version = '5.0'
-  s.dependency 'DGCharts'
+  s.dependency 'DGCharts', '~> 5.1.0'
   
   
 end
