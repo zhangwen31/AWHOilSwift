@@ -26,14 +26,14 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "AWHOilSwift.framework"  # 确保框架包含 x86_64 和 arm64 架构
 
   # 关键配置：强制框架搜索路径和架构兼容
+  # 在你的AWHOilSwift.podspec中添加
   s.pod_target_xcconfig = {
-    "IPHONEOS_DEPLOYMENT_TARGET" => "13.0",
-    "VALID_ARCHS" => "x86_64 arm64",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "arm64",  # 模拟器排除 arm64
-    "EXCLUDED_ARCHS[sdk=iphoneos*]" => "x86_64",       # 真机排除 x86_64
-    "DEFINES_MODULE" => "YES",
-    "FRAMEWORK_SEARCH_PATHS" => "$(inherited) $(SRCROOT)/Pods/DGCharts **",  # 递归搜索 DGCharts
-    "OTHER_LDFLAGS" => "-framework DGCharts"  # 强制链接 DGCharts
+    'VALID_ARCHS' => 'arm64 arm64e x86_64',  # 明确支持的架构
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' unless ENV['SDK_NAME'] =~ /iphoneos/
+  }
+
+  s.user_target_xcconfig = {
+    'VALID_ARCHS' => 'arm64 arm64e x86_64'
   }
 
   # ――― Project Linking 项目链接―――――――――――――――――――――――――――――― #
