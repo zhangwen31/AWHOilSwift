@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # 在你的AWHOilSwift.podspec中添加
   s.pod_target_xcconfig = {
     'VALID_ARCHS' => 'arm64 arm64e x86_64',  # 明确支持的架构
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' unless ENV['SDK_NAME'] =~ /iphoneos/
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
 
   s.user_target_xcconfig = {
