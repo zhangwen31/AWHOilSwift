@@ -3,7 +3,4431 @@
     "kind": "Root",
     "name": "AWHOilSwift",
     "printedName": "AWHOilSwift",
-    "children": [],
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DGCharts",
+        "printedName": "DGCharts",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AWHOSXYMarkerView",
+        "printedName": "AWHOSXYMarkerView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "xAxisValueFormatter",
+            "printedName": "xAxisValueFormatter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any DGCharts.AxisValueFormatter)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AxisValueFormatter",
+                    "printedName": "any DGCharts.AxisValueFormatter",
+                    "usr": "c:@M@DGCharts@objc(pl)ChartAxisValueFormatter"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSXYMarkerView(py)xAxisValueFormatter",
+            "mangledName": "$s11AWHOilSwift17AWHOSXYMarkerViewC19xAxisValueFormatter8DGCharts0efG0_pSgvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any DGCharts.AxisValueFormatter)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AxisValueFormatter",
+                        "printedName": "any DGCharts.AxisValueFormatter",
+                        "usr": "c:@M@DGCharts@objc(pl)ChartAxisValueFormatter"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSXYMarkerView(im)xAxisValueFormatter",
+                "mangledName": "$s11AWHOilSwift17AWHOSXYMarkerViewC19xAxisValueFormatter8DGCharts0efG0_pSgvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any DGCharts.AxisValueFormatter)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AxisValueFormatter",
+                        "printedName": "any DGCharts.AxisValueFormatter",
+                        "usr": "c:@M@DGCharts@objc(pl)ChartAxisValueFormatter"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSXYMarkerView(im)setXAxisValueFormatter:",
+                "mangledName": "$s11AWHOilSwift17AWHOSXYMarkerViewC19xAxisValueFormatter8DGCharts0efG0_pSgvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift17AWHOSXYMarkerViewC19xAxisValueFormatter8DGCharts0efG0_pSgvM",
+                "mangledName": "$s11AWHOilSwift17AWHOSXYMarkerViewC19xAxisValueFormatter8DGCharts0efG0_pSgvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(color:font:textColor:borderColor:borderWidth:type:precision:insets:xAxisValueFormatter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AWHOSXYMarkerView",
+                "printedName": "AWHOilSwift.AWHOSXYMarkerView",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSXYMarkerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AxisValueFormatter",
+                "printedName": "any DGCharts.AxisValueFormatter",
+                "usr": "c:@M@DGCharts@objc(pl)ChartAxisValueFormatter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSXYMarkerView(im)initWithColor:font:textColor:borderColor:borderWidth:type:precision:insets:xAxisValueFormatter:",
+            "mangledName": "$s11AWHOilSwift17AWHOSXYMarkerViewC5color4font9textColor06borderH00I5Width4type9precision6insets19xAxisValueFormatterACSo7UIColorC_So6UIFontCA2N12CoreGraphics7CGFloatVS2iSo12UIEdgeInsetsV8DGCharts0noP0_ptcfc",
+            "moduleName": "AWHOilSwift",
+            "objc_name": "initWithColor:font:textColor:borderColor:borderWidth:type:precision:insets:xAxisValueFormatter:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshContent",
+            "printedName": "refreshContent(entry:highlight:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ChartDataEntry",
+                "printedName": "DGCharts.ChartDataEntry",
+                "usr": "c:@M@DGCharts@objc(cs)ChartDataEntry"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Highlight",
+                "printedName": "DGCharts.Highlight",
+                "usr": "c:@M@DGCharts@objc(cs)ChartHighlight"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSXYMarkerView(im)refreshContentWithEntry:highlight:",
+            "mangledName": "$s11AWHOilSwift17AWHOSXYMarkerViewC14refreshContent5entry9highlighty8DGCharts14ChartDataEntryC_AG9HighlightCtF",
+            "moduleName": "AWHOilSwift",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "refreshContentWithEntry:highlight:",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(color:font:textColor:borderColor:borderWidth:type:precision:insets:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AWHOSXYMarkerView",
+                "printedName": "AWHOilSwift.AWHOSXYMarkerView",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSXYMarkerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSXYMarkerView(im)initWithColor:font:textColor:borderColor:borderWidth:type:precision:insets:",
+            "mangledName": "$s11AWHOilSwift17AWHOSXYMarkerViewC5color4font9textColor06borderH00I5Width4type9precision6insetsACSo7UIColorC_So6UIFontCA2M12CoreGraphics7CGFloatVS2iSo12UIEdgeInsetsVtcfc",
+            "moduleName": "AWHOilSwift",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithColor:font:textColor:borderColor:borderWidth:type:precision:insets:",
+            "declAttributes": [
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSXYMarkerView",
+        "mangledName": "$s11AWHOilSwift17AWHOSXYMarkerViewC",
+        "moduleName": "AWHOilSwift",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker",
+        "superclassNames": [
+          "AWHOilSwift.AWHOSBalloonMarker",
+          "DGCharts.MarkerImage",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Marker",
+            "printedName": "Marker",
+            "usr": "c:@M@DGCharts@objc(pl)ChartMarker",
+            "mangledName": "$s8DGCharts6MarkerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DGCharts",
+        "printedName": "DGCharts",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AWHOSTemperatureChartMarkerView",
+        "printedName": "AWHOSTemperatureChartMarkerView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "details",
+            "printedName": "details",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[AWHOilSwift.AWHSSTemperatureHumidityDetailsModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AWHOilSwift.AWHSSTemperatureHumidityDetailsModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AWHSSTemperatureHumidityDetailsModel",
+                        "printedName": "AWHOilSwift.AWHSSTemperatureHumidityDetailsModel",
+                        "usr": "c:objc(cs)AWHSSTemperatureHumidityDetailsModel"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarkerView(py)details",
+            "mangledName": "$s11AWHOilSwift31AWHOSTemperatureChartMarkerViewC7detailsSaySo36AWHSSTemperatureHumidityDetailsModelCGSgvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[AWHOilSwift.AWHSSTemperatureHumidityDetailsModel]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AWHOilSwift.AWHSSTemperatureHumidityDetailsModel]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AWHSSTemperatureHumidityDetailsModel",
+                            "printedName": "AWHOilSwift.AWHSSTemperatureHumidityDetailsModel",
+                            "usr": "c:objc(cs)AWHSSTemperatureHumidityDetailsModel"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarkerView(im)details",
+                "mangledName": "$s11AWHOilSwift31AWHOSTemperatureChartMarkerViewC7detailsSaySo36AWHSSTemperatureHumidityDetailsModelCGSgvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[AWHOilSwift.AWHSSTemperatureHumidityDetailsModel]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AWHOilSwift.AWHSSTemperatureHumidityDetailsModel]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AWHSSTemperatureHumidityDetailsModel",
+                            "printedName": "AWHOilSwift.AWHSSTemperatureHumidityDetailsModel",
+                            "usr": "c:objc(cs)AWHSSTemperatureHumidityDetailsModel"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarkerView(im)setDetails:",
+                "mangledName": "$s11AWHOilSwift31AWHOSTemperatureChartMarkerViewC7detailsSaySo36AWHSSTemperatureHumidityDetailsModelCGSgvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift31AWHOSTemperatureChartMarkerViewC7detailsSaySo36AWHSSTemperatureHumidityDetailsModelCGSgvM",
+                "mangledName": "$s11AWHOilSwift31AWHOSTemperatureChartMarkerViewC7detailsSaySo36AWHSSTemperatureHumidityDetailsModelCGSgvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "typeArr",
+            "printedName": "typeArr",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[AWHOilSwift.AWHSSQuantityStatisticsQueryCfgModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AWHOilSwift.AWHSSQuantityStatisticsQueryCfgModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AWHSSQuantityStatisticsQueryCfgModel",
+                        "printedName": "AWHOilSwift.AWHSSQuantityStatisticsQueryCfgModel",
+                        "usr": "c:objc(cs)AWHSSQuantityStatisticsQueryCfgModel"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarkerView(py)typeArr",
+            "mangledName": "$s11AWHOilSwift31AWHOSTemperatureChartMarkerViewC7typeArrSaySo36AWHSSQuantityStatisticsQueryCfgModelCGSgvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[AWHOilSwift.AWHSSQuantityStatisticsQueryCfgModel]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AWHOilSwift.AWHSSQuantityStatisticsQueryCfgModel]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AWHSSQuantityStatisticsQueryCfgModel",
+                            "printedName": "AWHOilSwift.AWHSSQuantityStatisticsQueryCfgModel",
+                            "usr": "c:objc(cs)AWHSSQuantityStatisticsQueryCfgModel"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarkerView(im)typeArr",
+                "mangledName": "$s11AWHOilSwift31AWHOSTemperatureChartMarkerViewC7typeArrSaySo36AWHSSQuantityStatisticsQueryCfgModelCGSgvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[AWHOilSwift.AWHSSQuantityStatisticsQueryCfgModel]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AWHOilSwift.AWHSSQuantityStatisticsQueryCfgModel]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AWHSSQuantityStatisticsQueryCfgModel",
+                            "printedName": "AWHOilSwift.AWHSSQuantityStatisticsQueryCfgModel",
+                            "usr": "c:objc(cs)AWHSSQuantityStatisticsQueryCfgModel"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarkerView(im)setTypeArr:",
+                "mangledName": "$s11AWHOilSwift31AWHOSTemperatureChartMarkerViewC7typeArrSaySo36AWHSSQuantityStatisticsQueryCfgModelCGSgvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift31AWHOSTemperatureChartMarkerViewC7typeArrSaySo36AWHSSQuantityStatisticsQueryCfgModelCGSgvM",
+                "mangledName": "$s11AWHOilSwift31AWHOSTemperatureChartMarkerViewC7typeArrSaySo36AWHSSQuantityStatisticsQueryCfgModelCGSgvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(color:font:textColor:borderColor:borderWidth:insets:details:typeArr:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AWHOSTemperatureChartMarkerView",
+                "printedName": "AWHOilSwift.AWHOSTemperatureChartMarkerView",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarkerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[AWHOilSwift.AWHSSTemperatureHumidityDetailsModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AWHOilSwift.AWHSSTemperatureHumidityDetailsModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AWHSSTemperatureHumidityDetailsModel",
+                        "printedName": "AWHOilSwift.AWHSSTemperatureHumidityDetailsModel",
+                        "usr": "c:objc(cs)AWHSSTemperatureHumidityDetailsModel"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[AWHOilSwift.AWHSSQuantityStatisticsQueryCfgModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AWHOilSwift.AWHSSQuantityStatisticsQueryCfgModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AWHSSQuantityStatisticsQueryCfgModel",
+                        "printedName": "AWHOilSwift.AWHSSQuantityStatisticsQueryCfgModel",
+                        "usr": "c:objc(cs)AWHSSQuantityStatisticsQueryCfgModel"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarkerView(im)initWithColor:font:textColor:borderColor:borderWidth:insets:details:typeArr:",
+            "mangledName": "$s11AWHOilSwift31AWHOSTemperatureChartMarkerViewC5color4font9textColor06borderJ00K5Width6insets7details7typeArrACSo7UIColorC_So6UIFontCA2M12CoreGraphics7CGFloatVSo12UIEdgeInsetsVSaySo36AWHSSTemperatureHumidityDetailsModelCGSgSaySo36AWHSSQuantityStatisticsQueryCfgModelCGSgtcfc",
+            "moduleName": "AWHOilSwift",
+            "objc_name": "initWithColor:font:textColor:borderColor:borderWidth:insets:details:typeArr:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshContent",
+            "printedName": "refreshContent(entry:highlight:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ChartDataEntry",
+                "printedName": "DGCharts.ChartDataEntry",
+                "usr": "c:@M@DGCharts@objc(cs)ChartDataEntry"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Highlight",
+                "printedName": "DGCharts.Highlight",
+                "usr": "c:@M@DGCharts@objc(cs)ChartHighlight"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarkerView(im)refreshContentWithEntry:highlight:",
+            "mangledName": "$s11AWHOilSwift31AWHOSTemperatureChartMarkerViewC14refreshContent5entry9highlighty8DGCharts0D9DataEntryC_AG9HighlightCtF",
+            "moduleName": "AWHOilSwift",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "refreshContentWithEntry:highlight:",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(color:font:textColor:borderColor:borderWidth:insets:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AWHOSTemperatureChartMarkerView",
+                "printedName": "AWHOilSwift.AWHOSTemperatureChartMarkerView",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarkerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarkerView(im)initWithColor:font:textColor:borderColor:borderWidth:insets:",
+            "mangledName": "$s11AWHOilSwift31AWHOSTemperatureChartMarkerViewC5color4font9textColor06borderJ00K5Width6insetsACSo7UIColorC_So6UIFontCA2K12CoreGraphics7CGFloatVSo12UIEdgeInsetsVtcfc",
+            "moduleName": "AWHOilSwift",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithColor:font:textColor:borderColor:borderWidth:insets:",
+            "declAttributes": [
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarkerView",
+        "mangledName": "$s11AWHOilSwift31AWHOSTemperatureChartMarkerViewC",
+        "moduleName": "AWHOilSwift",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker",
+        "superclassNames": [
+          "AWHOilSwift.AWHOSTemperatureChartMarker",
+          "DGCharts.MarkerImage",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Marker",
+            "printedName": "Marker",
+            "usr": "c:@M@DGCharts@objc(pl)ChartMarker",
+            "mangledName": "$s8DGCharts6MarkerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DGCharts",
+        "printedName": "DGCharts",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AWHOSTemperatureChartMarker",
+        "printedName": "AWHOSTemperatureChartMarker",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "color",
+            "printedName": "color",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(py)color",
+            "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC5colorSo7UIColorCvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)color",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC5colorSo7UIColorCvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)setColor:",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC5colorSo7UIColorCvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift27AWHOSTemperatureChartMarkerC5colorSo7UIColorCvM",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC5colorSo7UIColorCvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "arrowSize",
+            "printedName": "arrowSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(py)arrowSize",
+            "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC9arrowSizeSo6CGSizeVvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)arrowSize",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC9arrowSizeSo6CGSizeVvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)setArrowSize:",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC9arrowSizeSo6CGSizeVvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift27AWHOSTemperatureChartMarkerC9arrowSizeSo6CGSizeVvM",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC9arrowSizeSo6CGSizeVvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "font",
+            "printedName": "font",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(py)font",
+            "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC4fontSo6UIFontCvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)font",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC4fontSo6UIFontCvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)setFont:",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC4fontSo6UIFontCvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift27AWHOSTemperatureChartMarkerC4fontSo6UIFontCvM",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC4fontSo6UIFontCvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textColor",
+            "printedName": "textColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(py)textColor",
+            "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC9textColorSo7UIColorCvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)textColor",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC9textColorSo7UIColorCvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)setTextColor:",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC9textColorSo7UIColorCvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift27AWHOSTemperatureChartMarkerC9textColorSo7UIColorCvM",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC9textColorSo7UIColorCvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "insets",
+            "printedName": "insets",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(py)insets",
+            "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC6insetsSo12UIEdgeInsetsVvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)insets",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC6insetsSo12UIEdgeInsetsVvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)setInsets:",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC6insetsSo12UIEdgeInsetsVvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift27AWHOSTemperatureChartMarkerC6insetsSo12UIEdgeInsetsVvM",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC6insetsSo12UIEdgeInsetsVvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minimumSize",
+            "printedName": "minimumSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(py)minimumSize",
+            "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC11minimumSizeSo6CGSizeVvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)minimumSize",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC11minimumSizeSo6CGSizeVvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)setMinimumSize:",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC11minimumSizeSo6CGSizeVvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift27AWHOSTemperatureChartMarkerC11minimumSizeSo6CGSizeVvM",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC11minimumSizeSo6CGSizeVvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "borderColor",
+            "printedName": "borderColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(py)borderColor",
+            "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC11borderColorSo7UIColorCvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)borderColor",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC11borderColorSo7UIColorCvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)setBorderColor:",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC11borderColorSo7UIColorCvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift27AWHOSTemperatureChartMarkerC11borderColorSo7UIColorCvM",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC11borderColorSo7UIColorCvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "borderWidth",
+            "printedName": "borderWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(py)borderWidth",
+            "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC11borderWidthSdvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)borderWidth",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC11borderWidthSdvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)setBorderWidth:",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC11borderWidthSdvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift27AWHOSTemperatureChartMarkerC11borderWidthSdvM",
+                "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC11borderWidthSdvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(color:font:textColor:borderColor:borderWidth:insets:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AWHOSTemperatureChartMarker",
+                "printedName": "AWHOilSwift.AWHOSTemperatureChartMarker",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)initWithColor:font:textColor:borderColor:borderWidth:insets:",
+            "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC5color4font9textColor06borderI00J5Width6insetsACSo7UIColorC_So6UIFontCA2K12CoreGraphics7CGFloatVSo12UIEdgeInsetsVtcfc",
+            "moduleName": "AWHOilSwift",
+            "objc_name": "initWithColor:font:textColor:borderColor:borderWidth:insets:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "offsetForDrawing",
+            "printedName": "offsetForDrawing(atPoint:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)offsetForDrawingAtPoint:",
+            "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC16offsetForDrawing7atPointSo7CGPointVAG_tF",
+            "moduleName": "AWHOilSwift",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "offsetForDrawingAtPoint:",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw(context:point:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGContext",
+                "printedName": "CoreGraphics.CGContext",
+                "usr": "c:@T@CGContextRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)drawWithContext:point:",
+            "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC4draw7context5pointySo12CGContextRefa_So7CGPointVtF",
+            "moduleName": "AWHOilSwift",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "drawWithContext:point:",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshContent",
+            "printedName": "refreshContent(entry:highlight:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ChartDataEntry",
+                "printedName": "DGCharts.ChartDataEntry",
+                "usr": "c:@M@DGCharts@objc(cs)ChartDataEntry"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Highlight",
+                "printedName": "DGCharts.Highlight",
+                "usr": "c:@M@DGCharts@objc(cs)ChartHighlight"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)refreshContentWithEntry:highlight:",
+            "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC14refreshContent5entry9highlighty8DGCharts0D9DataEntryC_AG9HighlightCtF",
+            "moduleName": "AWHOilSwift",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "refreshContentWithEntry:highlight:",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLabel",
+            "printedName": "setLabel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)setLabel:",
+            "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC8setLabelyySSF",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AWHOSTemperatureChartMarker",
+                "printedName": "AWHOilSwift.AWHOSTemperatureChartMarker",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker(im)init",
+            "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerCACycfc",
+            "moduleName": "AWHOilSwift",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSTemperatureChartMarker",
+        "mangledName": "$s11AWHOilSwift27AWHOSTemperatureChartMarkerC",
+        "moduleName": "AWHOilSwift",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@DGCharts@objc(cs)ChartMarkerImage",
+        "superclassNames": [
+          "DGCharts.MarkerImage",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Marker",
+            "printedName": "Marker",
+            "usr": "c:@M@DGCharts@objc(pl)ChartMarker",
+            "mangledName": "$s8DGCharts6MarkerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DGCharts",
+        "printedName": "DGCharts",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AWHOSOverallLineMarkerView",
+        "printedName": "AWHOSOverallLineMarkerView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "details",
+            "printedName": "details",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[AWHOilSwift.AWHOSOverallLineModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AWHOilSwift.AWHOSOverallLineModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AWHOSOverallLineModel",
+                        "printedName": "AWHOilSwift.AWHOSOverallLineModel",
+                        "usr": "c:objc(cs)AWHOSOverallLineModel"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOverallLineMarkerView(py)details",
+            "mangledName": "$s11AWHOilSwift26AWHOSOverallLineMarkerViewC7detailsSaySo0cD5ModelCGSgvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[AWHOilSwift.AWHOSOverallLineModel]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AWHOilSwift.AWHOSOverallLineModel]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AWHOSOverallLineModel",
+                            "printedName": "AWHOilSwift.AWHOSOverallLineModel",
+                            "usr": "c:objc(cs)AWHOSOverallLineModel"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOverallLineMarkerView(im)details",
+                "mangledName": "$s11AWHOilSwift26AWHOSOverallLineMarkerViewC7detailsSaySo0cD5ModelCGSgvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[AWHOilSwift.AWHOSOverallLineModel]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AWHOilSwift.AWHOSOverallLineModel]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AWHOSOverallLineModel",
+                            "printedName": "AWHOilSwift.AWHOSOverallLineModel",
+                            "usr": "c:objc(cs)AWHOSOverallLineModel"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOverallLineMarkerView(im)setDetails:",
+                "mangledName": "$s11AWHOilSwift26AWHOSOverallLineMarkerViewC7detailsSaySo0cD5ModelCGSgvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift26AWHOSOverallLineMarkerViewC7detailsSaySo0cD5ModelCGSgvM",
+                "mangledName": "$s11AWHOilSwift26AWHOSOverallLineMarkerViewC7detailsSaySo0cD5ModelCGSgvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(color:font:textColor:borderColor:borderWidth:precision:insets:details:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AWHOSOverallLineMarkerView",
+                "printedName": "AWHOilSwift.AWHOSOverallLineMarkerView",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOverallLineMarkerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[AWHOilSwift.AWHOSOverallLineModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AWHOilSwift.AWHOSOverallLineModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AWHOSOverallLineModel",
+                        "printedName": "AWHOilSwift.AWHOSOverallLineModel",
+                        "usr": "c:objc(cs)AWHOSOverallLineModel"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOverallLineMarkerView(im)initWithColor:font:textColor:borderColor:borderWidth:precision:insets:details:",
+            "mangledName": "$s11AWHOilSwift26AWHOSOverallLineMarkerViewC5color4font9textColor06borderJ00K5Width9precision6insets7detailsACSo7UIColorC_So6UIFontCA2M12CoreGraphics7CGFloatVSiSo12UIEdgeInsetsVSaySo0cD5ModelCGSgtcfc",
+            "moduleName": "AWHOilSwift",
+            "objc_name": "initWithColor:font:textColor:borderColor:borderWidth:precision:insets:details:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshContent",
+            "printedName": "refreshContent(entry:highlight:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ChartDataEntry",
+                "printedName": "DGCharts.ChartDataEntry",
+                "usr": "c:@M@DGCharts@objc(cs)ChartDataEntry"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Highlight",
+                "printedName": "DGCharts.Highlight",
+                "usr": "c:@M@DGCharts@objc(cs)ChartHighlight"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOverallLineMarkerView(im)refreshContentWithEntry:highlight:",
+            "mangledName": "$s11AWHOilSwift26AWHOSOverallLineMarkerViewC14refreshContent5entry9highlighty8DGCharts14ChartDataEntryC_AG9HighlightCtF",
+            "moduleName": "AWHOilSwift",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "refreshContentWithEntry:highlight:",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(color:font:textColor:borderColor:borderWidth:type:precision:insets:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AWHOSOverallLineMarkerView",
+                "printedName": "AWHOilSwift.AWHOSOverallLineMarkerView",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOverallLineMarkerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOverallLineMarkerView(im)initWithColor:font:textColor:borderColor:borderWidth:type:precision:insets:",
+            "mangledName": "$s11AWHOilSwift26AWHOSOverallLineMarkerViewC5color4font9textColor06borderJ00K5Width4type9precision6insetsACSo7UIColorC_So6UIFontCA2M12CoreGraphics7CGFloatVS2iSo12UIEdgeInsetsVtcfc",
+            "moduleName": "AWHOilSwift",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithColor:font:textColor:borderColor:borderWidth:type:precision:insets:",
+            "declAttributes": [
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOverallLineMarkerView",
+        "mangledName": "$s11AWHOilSwift26AWHOSOverallLineMarkerViewC",
+        "moduleName": "AWHOilSwift",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker",
+        "superclassNames": [
+          "AWHOilSwift.AWHOSBalloonMarker",
+          "DGCharts.MarkerImage",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Marker",
+            "printedName": "Marker",
+            "usr": "c:@M@DGCharts@objc(pl)ChartMarker",
+            "mangledName": "$s8DGCharts6MarkerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DGCharts",
+        "printedName": "DGCharts",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AWHOSOilLandXYMarkerView",
+        "printedName": "AWHOSOilLandXYMarkerView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "details",
+            "printedName": "details",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[AWHOilSwift.AWHOSQuantityStatisticsDetailsModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AWHOilSwift.AWHOSQuantityStatisticsDetailsModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AWHOSQuantityStatisticsDetailsModel",
+                        "printedName": "AWHOilSwift.AWHOSQuantityStatisticsDetailsModel",
+                        "usr": "c:objc(cs)AWHOSQuantityStatisticsDetailsModel"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOilLandXYMarkerView(py)details",
+            "mangledName": "$s11AWHOilSwift24AWHOSOilLandXYMarkerViewC7detailsSaySo35AWHOSQuantityStatisticsDetailsModelCGSgvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[AWHOilSwift.AWHOSQuantityStatisticsDetailsModel]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AWHOilSwift.AWHOSQuantityStatisticsDetailsModel]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AWHOSQuantityStatisticsDetailsModel",
+                            "printedName": "AWHOilSwift.AWHOSQuantityStatisticsDetailsModel",
+                            "usr": "c:objc(cs)AWHOSQuantityStatisticsDetailsModel"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOilLandXYMarkerView(im)details",
+                "mangledName": "$s11AWHOilSwift24AWHOSOilLandXYMarkerViewC7detailsSaySo35AWHOSQuantityStatisticsDetailsModelCGSgvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[AWHOilSwift.AWHOSQuantityStatisticsDetailsModel]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AWHOilSwift.AWHOSQuantityStatisticsDetailsModel]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AWHOSQuantityStatisticsDetailsModel",
+                            "printedName": "AWHOilSwift.AWHOSQuantityStatisticsDetailsModel",
+                            "usr": "c:objc(cs)AWHOSQuantityStatisticsDetailsModel"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOilLandXYMarkerView(im)setDetails:",
+                "mangledName": "$s11AWHOilSwift24AWHOSOilLandXYMarkerViewC7detailsSaySo35AWHOSQuantityStatisticsDetailsModelCGSgvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift24AWHOSOilLandXYMarkerViewC7detailsSaySo35AWHOSQuantityStatisticsDetailsModelCGSgvM",
+                "mangledName": "$s11AWHOilSwift24AWHOSOilLandXYMarkerViewC7detailsSaySo35AWHOSQuantityStatisticsDetailsModelCGSgvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(color:font:textColor:borderColor:borderWidth:type:precision:insets:details:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AWHOSOilLandXYMarkerView",
+                "printedName": "AWHOilSwift.AWHOSOilLandXYMarkerView",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOilLandXYMarkerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[AWHOilSwift.AWHOSQuantityStatisticsDetailsModel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AWHOilSwift.AWHOSQuantityStatisticsDetailsModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AWHOSQuantityStatisticsDetailsModel",
+                        "printedName": "AWHOilSwift.AWHOSQuantityStatisticsDetailsModel",
+                        "usr": "c:objc(cs)AWHOSQuantityStatisticsDetailsModel"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOilLandXYMarkerView(im)initWithColor:font:textColor:borderColor:borderWidth:type:precision:insets:details:",
+            "mangledName": "$s11AWHOilSwift24AWHOSOilLandXYMarkerViewC5color4font9textColor06borderJ00K5Width4type9precision6insets7detailsACSo7UIColorC_So6UIFontCA2N12CoreGraphics7CGFloatVS2iSo12UIEdgeInsetsVSaySo35AWHOSQuantityStatisticsDetailsModelCGSgtcfc",
+            "moduleName": "AWHOilSwift",
+            "objc_name": "initWithColor:font:textColor:borderColor:borderWidth:type:precision:insets:details:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshContent",
+            "printedName": "refreshContent(entry:highlight:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ChartDataEntry",
+                "printedName": "DGCharts.ChartDataEntry",
+                "usr": "c:@M@DGCharts@objc(cs)ChartDataEntry"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Highlight",
+                "printedName": "DGCharts.Highlight",
+                "usr": "c:@M@DGCharts@objc(cs)ChartHighlight"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOilLandXYMarkerView(im)refreshContentWithEntry:highlight:",
+            "mangledName": "$s11AWHOilSwift24AWHOSOilLandXYMarkerViewC14refreshContent5entry9highlighty8DGCharts14ChartDataEntryC_AG9HighlightCtF",
+            "moduleName": "AWHOilSwift",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "refreshContentWithEntry:highlight:",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(color:font:textColor:borderColor:borderWidth:type:precision:insets:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AWHOSOilLandXYMarkerView",
+                "printedName": "AWHOilSwift.AWHOSOilLandXYMarkerView",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOilLandXYMarkerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOilLandXYMarkerView(im)initWithColor:font:textColor:borderColor:borderWidth:type:precision:insets:",
+            "mangledName": "$s11AWHOilSwift24AWHOSOilLandXYMarkerViewC5color4font9textColor06borderJ00K5Width4type9precision6insetsACSo7UIColorC_So6UIFontCA2M12CoreGraphics7CGFloatVS2iSo12UIEdgeInsetsVtcfc",
+            "moduleName": "AWHOilSwift",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithColor:font:textColor:borderColor:borderWidth:type:precision:insets:",
+            "declAttributes": [
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSOilLandXYMarkerView",
+        "mangledName": "$s11AWHOilSwift24AWHOSOilLandXYMarkerViewC",
+        "moduleName": "AWHOilSwift",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker",
+        "superclassNames": [
+          "AWHOilSwift.AWHOSBalloonMarker",
+          "DGCharts.MarkerImage",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Marker",
+            "printedName": "Marker",
+            "usr": "c:@M@DGCharts@objc(pl)ChartMarker",
+            "mangledName": "$s8DGCharts6MarkerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DGCharts",
+        "printedName": "DGCharts",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AWHOilSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AWHOSBalloonMarker",
+        "printedName": "AWHOSBalloonMarker",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "color",
+            "printedName": "color",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(py)color",
+            "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC5colorSo7UIColorCvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)color",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC5colorSo7UIColorCvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)setColor:",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC5colorSo7UIColorCvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift18AWHOSBalloonMarkerC5colorSo7UIColorCvM",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC5colorSo7UIColorCvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "arrowSize",
+            "printedName": "arrowSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(py)arrowSize",
+            "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC9arrowSizeSo6CGSizeVvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)arrowSize",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC9arrowSizeSo6CGSizeVvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)setArrowSize:",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC9arrowSizeSo6CGSizeVvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift18AWHOSBalloonMarkerC9arrowSizeSo6CGSizeVvM",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC9arrowSizeSo6CGSizeVvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "font",
+            "printedName": "font",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(py)font",
+            "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC4fontSo6UIFontCvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)font",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC4fontSo6UIFontCvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)setFont:",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC4fontSo6UIFontCvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift18AWHOSBalloonMarkerC4fontSo6UIFontCvM",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC4fontSo6UIFontCvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textColor",
+            "printedName": "textColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(py)textColor",
+            "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC9textColorSo7UIColorCvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)textColor",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC9textColorSo7UIColorCvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)setTextColor:",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC9textColorSo7UIColorCvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift18AWHOSBalloonMarkerC9textColorSo7UIColorCvM",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC9textColorSo7UIColorCvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "insets",
+            "printedName": "insets",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(py)insets",
+            "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC6insetsSo12UIEdgeInsetsVvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)insets",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC6insetsSo12UIEdgeInsetsVvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)setInsets:",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC6insetsSo12UIEdgeInsetsVvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift18AWHOSBalloonMarkerC6insetsSo12UIEdgeInsetsVvM",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC6insetsSo12UIEdgeInsetsVvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minimumSize",
+            "printedName": "minimumSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(py)minimumSize",
+            "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC11minimumSizeSo6CGSizeVvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)minimumSize",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC11minimumSizeSo6CGSizeVvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)setMinimumSize:",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC11minimumSizeSo6CGSizeVvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift18AWHOSBalloonMarkerC11minimumSizeSo6CGSizeVvM",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC11minimumSizeSo6CGSizeVvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "borderColor",
+            "printedName": "borderColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(py)borderColor",
+            "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC11borderColorSo7UIColorCvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)borderColor",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC11borderColorSo7UIColorCvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)setBorderColor:",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC11borderColorSo7UIColorCvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift18AWHOSBalloonMarkerC11borderColorSo7UIColorCvM",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC11borderColorSo7UIColorCvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "borderWidth",
+            "printedName": "borderWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(py)borderWidth",
+            "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC11borderWidthSdvp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)borderWidth",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC11borderWidthSdvg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)setBorderWidth:",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC11borderWidthSdvs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift18AWHOSBalloonMarkerC11borderWidthSdvM",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC11borderWidthSdvM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(py)type",
+            "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC4typeSivp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)type",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC4typeSivg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)setType:",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC4typeSivs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift18AWHOSBalloonMarkerC4typeSivM",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC4typeSivM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "precision",
+            "printedName": "precision",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(py)precision",
+            "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC9precisionSivp",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)precision",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC9precisionSivg",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)setPrecision:",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC9precisionSivs",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AWHOilSwift18AWHOSBalloonMarkerC9precisionSivM",
+                "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC9precisionSivM",
+                "moduleName": "AWHOilSwift",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(color:font:textColor:borderColor:borderWidth:type:precision:insets:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AWHOSBalloonMarker",
+                "printedName": "AWHOilSwift.AWHOSBalloonMarker",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)initWithColor:font:textColor:borderColor:borderWidth:type:precision:insets:",
+            "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC5color4font9textColor06borderH00I5Width4type9precision6insetsACSo7UIColorC_So6UIFontCA2M12CoreGraphics7CGFloatVS2iSo12UIEdgeInsetsVtcfc",
+            "moduleName": "AWHOilSwift",
+            "objc_name": "initWithColor:font:textColor:borderColor:borderWidth:type:precision:insets:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "offsetForDrawing",
+            "printedName": "offsetForDrawing(atPoint:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)offsetForDrawingAtPoint:",
+            "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC16offsetForDrawing7atPointSo7CGPointVAG_tF",
+            "moduleName": "AWHOilSwift",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "offsetForDrawingAtPoint:",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw(context:point:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGContext",
+                "printedName": "CoreGraphics.CGContext",
+                "usr": "c:@T@CGContextRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)drawWithContext:point:",
+            "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC4draw7context5pointySo12CGContextRefa_So7CGPointVtF",
+            "moduleName": "AWHOilSwift",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "drawWithContext:point:",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshContent",
+            "printedName": "refreshContent(entry:highlight:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ChartDataEntry",
+                "printedName": "DGCharts.ChartDataEntry",
+                "usr": "c:@M@DGCharts@objc(cs)ChartDataEntry"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Highlight",
+                "printedName": "DGCharts.Highlight",
+                "usr": "c:@M@DGCharts@objc(cs)ChartHighlight"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)refreshContentWithEntry:highlight:",
+            "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC14refreshContent5entry9highlighty8DGCharts14ChartDataEntryC_AG9HighlightCtF",
+            "moduleName": "AWHOilSwift",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "refreshContentWithEntry:highlight:",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLabel",
+            "printedName": "setLabel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)setLabel:",
+            "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC8setLabelyySSF",
+            "moduleName": "AWHOilSwift",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AWHOSBalloonMarker",
+                "printedName": "AWHOilSwift.AWHOSBalloonMarker",
+                "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker(im)init",
+            "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerCACycfc",
+            "moduleName": "AWHOilSwift",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AWHOilSwift@objc(cs)AWHOSBalloonMarker",
+        "mangledName": "$s11AWHOilSwift18AWHOSBalloonMarkerC",
+        "moduleName": "AWHOilSwift",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@DGCharts@objc(cs)ChartMarkerImage",
+        "superclassNames": [
+          "DGCharts.MarkerImage",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Marker",
+            "printedName": "Marker",
+            "usr": "c:@M@DGCharts@objc(pl)ChartMarker",
+            "mangledName": "$s8DGCharts6MarkerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
     "json_format_version": 8
-  }
+  },
+  "ConstValues": [
+    {
+      "filePath": "$(inherited)\/AWHOilSwift\/AWHOSTemperatureChartMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 319,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "$(inherited)\/AWHOilSwift\/AWHOSTemperatureChartMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 331,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "$(inherited)\/AWHOilSwift\/AWHOSTemperatureChartMarker.swift",
+      "kind": "FloatLiteral",
+      "offset": 560,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "$(inherited)\/AWHOilSwift\/AWHOSBalloonMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 301,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "$(inherited)\/AWHOilSwift\/AWHOSBalloonMarker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 313,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "$(inherited)\/AWHOilSwift\/AWHOSBalloonMarker.swift",
+      "kind": "FloatLiteral",
+      "offset": 542,
+      "length": 3,
+      "value": "1.0"
+    }
+  ]
 }
