@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "13.0"
   s.ios.deployment_target = "13.0"
   s.source       = { :git => "https://github.com/zhangwen31/AWHOilSwift.git", :tag => "#{s.version}" }
-  s.vendored_frameworks = ['AWHOilSwift.xcframework']
-  s.source_files = 'AWHOilSwift.xcframework/Headers/*h'
+  s.vendored_frameworks = ['AWHOilSwift.framework']
+  s.source_files = 'AWHOilSwift.framework/Headers/*h'
   s.pod_target_xcconfig = {
     "ARCHS" => "$(ARCHS_STANDARD_64_BIT)",
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "arm64"
