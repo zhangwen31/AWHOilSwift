@@ -1,0 +1,26 @@
+PODS:
+  - AWHOilSwift (1.0.2):
+    - DGCharts (~> 5.1.0)
+  - DGCharts (5.1.0):
+    - DGCharts/Core (= 5.1.0)
+  - DGCharts/Core (5.1.0)
+
+DEPENDENCIES:
+  - AWHOilSwift (from `../`)
+  - DGCharts (~> 5.1.0)
+
+SPEC REPOS:
+  trunk:
+    - DGCharts
+
+EXTERNAL SOURCES:
+  AWHOilSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AWHOilSwift: a7acd1a330e672aa72e2d4a62cff54a4ef9b76f5
+  DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
+
+PODFILE CHECKSUM: 1c414864c04a7c977730f2dfec61ac23c585e9cc
+
+COCOAPODS: 1.16.2
