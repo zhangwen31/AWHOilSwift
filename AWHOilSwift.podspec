@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AWHOilSwift"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "石油行业数据可视化工具库"
   s.description  = "AWHOilSwift 是一个专注于石油行业数据可视化的 Swift 库，基于 DGCharts 扩展，提供图表交互、数据解析和自定义标记视图等功能，简化石油监测场景的开发流程。"
   s.homepage     = "https://github.com/zhangwen31/AWHOilSwift"
