@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AWHOilSwift"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "A short description of AWHOilSwift."
 
   # This description is used to generate tags and improve search results.
@@ -184,7 +184,7 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
     
-  s.dependency "DGCharts", "~> 5.1.0"
+  s.dependency "DGCharts"
     
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
