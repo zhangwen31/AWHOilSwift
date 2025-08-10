@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AWHOilSwift"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "A short description of AWHOilSwift."
 
   # This description is used to generate tags and improve search results.
@@ -124,7 +124,7 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = {
     "IPHONEOS_DEPLOYMENT_TARGET" => "13.0",
-    'VALID_ARCHS' => 'x86_64 armv7 arm64'
+    'VALID_ARCHS' => 'x86_64 arm64'
   }
   s.user_target_xcconfig = {
     "IPHONEOS_DEPLOYMENT_TARGET" => "13.0"
