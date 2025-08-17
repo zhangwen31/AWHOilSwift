@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AWHOilSwift"
-  s.version      = "1.0.8"
+  s.version      = "1.0.9"
   s.summary      = "A short description of AWHOilSwift."
 
   # This description is used to generate tags and improve search results.
@@ -100,7 +100,7 @@ Pod::Spec.new do |s|
   #  #支持git、hg、bzr、svn和HTTP。
   #
 
-  s.source       = { :git => "https://gitee.com/WHWorkDevelopment/AWHOilSwift-iOS.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/zhangwen31/AWHOilSwift.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code 源代码――――――――――――――――――――――――――――――――― #
