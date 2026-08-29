@@ -1,0 +1,11 @@
+framework module AWHOilSwift {
+  umbrella header "AWHOilSwift.h"
+  export *
+
+  module * { export * }
+}
+
+module AWHOilSwift.Swift {
+  header "AWHOilSwift-Swift.h"
+  requires objc
+}
