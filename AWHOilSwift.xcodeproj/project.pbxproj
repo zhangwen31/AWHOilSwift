@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2AB194222E37BE1C008A5CB2 /* AWHOilSwiftAGG */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2AB194232E37BE1C008A5CB2 /* Build configuration list for PBXAggregateTarget "AWHOilSwiftAGG" */;
+			buildPhases = (
+				2AB194262E37BE30008A5CB2 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = AWHOilSwiftAGG;
+			productName = AWHOilSwiftAGG;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4A47187937DD5786D72BDE19 /* libPods-AWHOilSwiftDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F721BADC3E8638E95E5820 /* libPods-AWHOilSwiftDemo.a */; };
+		F580C1A12C9B469DE47EDB3E /* Pods_AWHOilSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B093D10026BBE998379DEA /* Pods_AWHOilSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22F797923588D22D8436A00B /* Pods-AWHOilSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWHOilSwift.debug.xcconfig"; path = "Target Support Files/Pods-AWHOilSwift/Pods-AWHOilSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		2AB192AC2E370032008A5CB2 /* AWHOilSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWHOilSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB192BA2E37004D008A5CB2 /* AWHOilSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWHOilSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B4105CC15A2EF34FEC6D39 /* Pods-AWHOilSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWHOilSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-AWHOilSwiftDemo/Pods-AWHOilSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9861CC759F209C993ADB56D2 /* Pods-AWHOilSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWHOilSwift.release.xcconfig"; path = "Target Support Files/Pods-AWHOilSwift/Pods-AWHOilSwift.release.xcconfig"; sourceTree = "<group>"; };
+		C8296CF416DF6792A4107F06 /* Pods-AWHOilSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWHOilSwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-AWHOilSwiftDemo/Pods-AWHOilSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F3F721BADC3E8638E95E5820 /* libPods-AWHOilSwiftDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWHOilSwiftDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B093D10026BBE998379DEA /* Pods_AWHOilSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWHOilSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2AB192CB2E37004F008A5CB2 /* Exceptions for "AWHOilSwiftDemo" folder in "AWHOilSwiftDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2AB192B92E37004D008A5CB2 /* AWHOilSwiftDemo */;
+		};
+		2AB193FD2E37BCCB008A5CB2 /* Exceptions for "AWHOilSwift" folder in "AWHOilSwift" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Main.storyboard",
+			);
+			publicHeaders = (
+				AWHOilSwift.h,
+				AWHOSTools.h,
+				Model/AWHOSOverallLineModel.h,
+				Model/AWHOSQuantityStatisticsDetailsModel.h,
+				Model/AWHSSQuantityStatisticsQueryAdsModel.h,
+				Model/AWHSSQuantityStatisticsQueryCfgModel.h,
+				Model/AWHSSTemperatureHumidityDetailsModel.h,
+			);
+			target = 2AB192AB2E370032008A5CB2 /* AWHOilSwift */;
+		};
+		2AC0DA052E39946D001057D9 /* Exceptions for "AWHOilSwift" folder in "AWHOilSwiftDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Main.storyboard",
+			);
+			target = 2AB192B92E37004D008A5CB2 /* AWHOilSwiftDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2AB192AE2E370032008A5CB2 /* AWHOilSwift */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2AB193FD2E37BCCB008A5CB2 /* Exceptions for "AWHOilSwift" folder in "AWHOilSwift" target */,
+				2AC0DA052E39946D001057D9 /* Exceptions for "AWHOilSwift" folder in "AWHOilSwiftDemo" target */,
+			);
+			path = AWHOilSwift;
+			sourceTree = "<group>";
+		};
+		2AB192BB2E37004D008A5CB2 /* AWHOilSwiftDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2AB192CB2E37004F008A5CB2 /* Exceptions for "AWHOilSwiftDemo" folder in "AWHOilSwiftDemo" target */,
+			);
+			path = AWHOilSwiftDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AB192A92E370032008A5CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F580C1A12C9B469DE47EDB3E /* Pods_AWHOilSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB192B72E37004D008A5CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A47187937DD5786D72BDE19 /* libPods-AWHOilSwiftDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F68F816628F6E84D3555BAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22F797923588D22D8436A00B /* Pods-AWHOilSwift.debug.xcconfig */,
+				9861CC759F209C993ADB56D2 /* Pods-AWHOilSwift.release.xcconfig */,
+				47B4105CC15A2EF34FEC6D39 /* Pods-AWHOilSwiftDemo.debug.xcconfig */,
+				C8296CF416DF6792A4107F06 /* Pods-AWHOilSwiftDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		20E388EAABE2D5DBB4777B6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3F721BADC3E8638E95E5820 /* libPods-AWHOilSwiftDemo.a */,
+				F9B093D10026BBE998379DEA /* Pods_AWHOilSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AB192A22E370032008A5CB2 = {
+			isa = PBXGroup;
+			children = (
+				2AB192AE2E370032008A5CB2 /* AWHOilSwift */,
+				2AB192BB2E37004D008A5CB2 /* AWHOilSwiftDemo */,
+				2AB192AD2E370032008A5CB2 /* Products */,
+				1F68F816628F6E84D3555BAA /* Pods */,
+				20E388EAABE2D5DBB4777B6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AB192AD2E370032008A5CB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AB192AC2E370032008A5CB2 /* AWHOilSwift.framework */,
+				2AB192BA2E37004D008A5CB2 /* AWHOilSwiftDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2AB192A72E370032008A5CB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2AB192AB2E370032008A5CB2 /* AWHOilSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB192B32E370032008A5CB2 /* Build configuration list for PBXNativeTarget "AWHOilSwift" */;
+			buildPhases = (
+				B3D3D598AD6E175B25C6C3AD /* [CP] Check Pods Manifest.lock */,
+				2AB192A72E370032008A5CB2 /* Headers */,
+				2AB192A82E370032008A5CB2 /* Sources */,
+				2AB192A92E370032008A5CB2 /* Frameworks */,
+				2AB192AA2E370032008A5CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2AB192AE2E370032008A5CB2 /* AWHOilSwift */,
+			);
+			name = AWHOilSwift;
+			productName = AWHOilSwift;
+			productReference = 2AB192AC2E370032008A5CB2 /* AWHOilSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2AB192B92E37004D008A5CB2 /* AWHOilSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB192CC2E37004F008A5CB2 /* Build configuration list for PBXNativeTarget "AWHOilSwiftDemo" */;
+			buildPhases = (
+				AF9ADD7B65CB4081978D62A4 /* [CP] Check Pods Manifest.lock */,
+				2AB192B62E37004D008A5CB2 /* Sources */,
+				2AB192B72E37004D008A5CB2 /* Frameworks */,
+				2AB192B82E37004D008A5CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2AB192BB2E37004D008A5CB2 /* AWHOilSwiftDemo */,
+			);
+			name = AWHOilSwiftDemo;
+			productName = AWHOilSwiftDemo;
+			productReference = 2AB192BA2E37004D008A5CB2 /* AWHOilSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AB192A32E370032008A5CB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					2AB192AB2E370032008A5CB2 = {
+						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
+					};
+					2AB192B92E37004D008A5CB2 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					2AB194222E37BE1C008A5CB2 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 2AB192A62E370032008A5CB2 /* Build configuration list for PBXProject "AWHOilSwift" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AB192A22E370032008A5CB2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2AB192AD2E370032008A5CB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AB192AB2E370032008A5CB2 /* AWHOilSwift */,
+				2AB192B92E37004D008A5CB2 /* AWHOilSwiftDemo */,
+				2AB194222E37BE1C008A5CB2 /* AWHOilSwiftAGG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AB192AA2E370032008A5CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB192B82E37004D008A5CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB194262E37BE30008A5CB2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n\n# 设置默认变量（增强兼容性）\nFMK_NAME=\"AWHOilSwift\"\nPROJECT_DIR=\"/Users/wangheng/Desktop/WangHengGit/AWHSDKBale\"\nFMK_DIR_NAME=\"${PROJECT_DIR}/${FMK_NAME}\"\nBUILD_ROOT=\"${PROJECT_DIR}/build\"  # 固定到项目内，避免权限问题\nCONFIGURATION=\"${CONFIGURATION:-Release}\"  # 添加默认配置\n\n# 打印调试信息（更详细的环境变量）\necho \"===== Framework合并脚本开始执行 =====\"\necho \"基本参数：\"\necho \"  FMK_NAME: ${FMK_NAME}\"\necho \"  PROJECT_DIR: ${PROJECT_DIR}\"\necho \"  输出目录: ${FMK_DIR_NAME}\"\necho \"  构建根目录: ${BUILD_ROOT}\"\necho \"  构建配置: ${CONFIGURATION}\"\necho \"  操作类型: ${ACTION:-未设置（非Xcode构建）}\"\necho \"======================================\"\n\n# 检查目录是否存在（增强错误提示）\ncheck_directory() {\n    if [ ! -d \"$1\" ]; then\n        echo \"❌ 错误: 目录不存在 - $1\"\n        echo \"   请检查路径是否正确，或是否已完成构建\"\n        exit 1\n    fi\n}\n\n# 确保基础目录存在\ncheck_directory \"${PROJECT_DIR}\"\nmkdir -p \"${BUILD_ROOT}\" || { \n    echo \"❌ 错误: 无法创建构建根目录（${BUILD_ROOT}）\"\n    echo \"   可能是权限不足，请手动创建或修改目录权限\"\n    exit 1\n}\n\nif [ \"${ACTION}\" = \"build\" ]; then\n    # 定义路径（明确区分设备/模拟器）\n    INSTALL_DIR=\"${FMK_DIR_NAME}/${FMK_NAME}.framework\"\n    DEVICE_DIR=\"${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${FMK_NAME}.framework\"\n    SIMULATOR_DIR=\"${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${FMK_NAME}.framework\"\n    \n    # 检查设备端和模拟器端framework是否存在\n    echo \"检查设备端Framework...\"\n    check_directory \"${DEVICE_DIR}\"\n    echo \"✅ 设备端Framework存在（路径：${DEVICE_DIR}）\"\n    \n    echo \"检查模拟器端Framework...\"\n    check_directory \"${SIMULATOR_DIR}\"\n    echo \"✅ 模拟器端Framework存在（路径：${SIMULATOR_DIR}）\"\n    \n    # 清理旧输出目录（更友好的提示）\n    if [ -d \"${INSTALL_DIR}\" ]; then\n        echo \"清理旧输出目录: ${INSTALL_DIR}\"\n        rm -rf \"${INSTALL_DIR}\" || { \n            echo \"❌ 错误: 无法删除旧目录\"\n            echo \"   请手动删除该目录后重试：${INSTALL_DIR}\"\n            exit 1\n        }\n    fi\n    mkdir -p \"${INSTALL_DIR}\" || { \n        echo \"❌ 错误: 无法创建输出目录（${INSTALL_DIR}）\"\n        exit 1\n    }\n    \n    # 复制设备端Framework（包含所有资源和元文件）\n    echo \"复制设备端Framework内容（二进制、plist、资源等）...\"\n    xattr -cr \"${DEVICE_DIR}\"  # 清除扩展属性（避免MacOS权限问题）\n    if cp -R -X \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"; then\n        echo \"✅ 设备端内容复制成功（包含：$(ls -1 \"${DEVICE_DIR}\" | tr '\\n' ' ')）\"\n    else\n        echo \"❌ 错误: 复制设备端Framework失败\"\n        exit 1\n    fi\n    \n    # 定义二进制文件路径\n    DEVICE_BINARY=\"${DEVICE_DIR}/${FMK_NAME}\"\n    SIMULATOR_BINARY=\"${SIMULATOR_DIR}/${FMK_NAME}\"\n    \n    # 检查二进制文件是否存在\n    if [ ! -f \"${DEVICE_BINARY}\" ] || [ ! -f \"${SIMULATOR_BINARY}\" ]; then\n        echo \"❌ 错误: 设备端或模拟器端二进制文件不存在\"\n        echo \"   设备端: ${DEVICE_BINARY}（存在：$(test -f \"${DEVICE_BINARY}\" && echo \"是\" || echo \"否\")）\"\n        echo \"   模拟器端: ${SIMULATOR_BINARY}（存在：$(test -f \"${SIMULATOR_BINARY}\" && echo \"是\" || echo \"否\")）\"\n        exit 1\n    fi\n    \n    # 查看原始架构（调试用）\n    echo \"原始架构信息：\"\n    echo \"  设备端: $(lipo -info \"${DEVICE_BINARY}\" | awk -F': ' '{print $NF}')\"\n    echo \"  模拟器端: $(lipo -info \"${SIMULATOR_BINARY}\" | awk -F': ' '{print $NF}')\"\n    \n    # 处理模拟器架构冲突（动态判断是否需要移除arm64）\n    echo \"处理模拟器架构...\"\n    SIMULATOR_TEMP_BINARY=\"${SIMULATOR_DIR}/${FMK_NAME}_temp\"\n    \n    if lipo -info \"${SIMULATOR_BINARY}\" | grep -q \"arm64\"; then\n        # 模拟器包含arm64，移除它（避免与设备端冲突）\n        lipo \"${SIMULATOR_BINARY}\" -remove arm64 -output \"${SIMULATOR_TEMP_BINARY}\" || {\n            echo \"❌ 错误: 移除模拟器arm64架构失败\"\n            exit 1\n        }\n        echo \"  模拟器处理后架构: $(lipo -info \"${SIMULATOR_TEMP_BINARY}\" | awk -F': ' '{print $NF}')\"\n    else\n        # 模拟器不含arm64，直接使用原文件\n        cp \"${SIMULATOR_BINARY}\" \"${SIMULATOR_TEMP_BINARY}\" || {\n            echo \"❌ 错误: 复制模拟器二进制文件失败\"\n            exit 1\n        }\n        echo \"  模拟器无需处理（不含arm64）\"\n    fi\n    \n    # 合并二进制文件（设备端arm64 + 处理后模拟器x86_64）\n    echo \"开始合并架构（设备端 + 模拟器端）...\"\n    lipo -create \"${DEVICE_BINARY}\" \"${SIMULATOR_TEMP_BINARY}\" -output \"${INSTALL_DIR}/${FMK_NAME}\" || {\n        echo \"❌ 错误: 二进制文件合并失败\"\n        rm -f \"${SIMULATOR_TEMP_BINARY}\"  # 清理临时文件\n        exit 1\n    }\n    rm -f \"${SIMULATOR_TEMP_BINARY}\"  # 清理临时文件\n    \n    # 复制模拟器的Swift模块（确保Swift接口完整）\n    echo \"复制Swift模块文件（支持Swift调用）...\"\n    SIMULATOR_MODULE_DIR=\"${SIMULATOR_DIR}/Modules/${FMK_NAME}.swiftmodule\"\n    DEST_MODULE_DIR=\"${INSTALL_DIR}/Modules/${FMK_NAME}.swiftmodule\"\n    if [ -d \"${SIMULATOR_MODULE_DIR}\" ]; then\n        mkdir -p \"${DEST_MODULE_DIR}\" && cp -R \"${SIMULATOR_MODULE_DIR}/\"* \"${DEST_MODULE_DIR}/\" && {\n            echo \"✅ Swift模块复制成功（包含：$(ls -1 \"${SIMULATOR_MODULE_DIR}\" | wc -l)个文件）\"\n        } || {\n            echo \"⚠️ 警告: Swift模块复制失败（可能影响Swift调用，不影响OC）\"\n        }\n    else\n        echo \"ℹ️ 未找到Swift模块，跳过复制\"\n    fi\n    \n    # 验证合并结果（严格检查架构完整性）\n    echo \"验证合并结果...\"\n    if [ -f \"${INSTALL_DIR}/${FMK_NAME}\" ]; then\n        MERGED_ARCHS=$(lipo -info \"${INSTALL_DIR}/${FMK_NAME}\" | awk -F': ' '{print $NF}')\n        if echo \"${MERGED_ARCHS}\" | grep -q \"arm64\" && echo \"${MERGED_ARCHS}\" | grep -q \"x86_64\"; then\n            echo \"✅ 合并成功！最终架构: ${MERGED_ARCHS}\"\n        else\n            echo \"❌ 错误: 合并后的架构不完整（需同时包含arm64和x86_64）\"\n            echo \"   实际架构: ${MERGED_ARCHS}\"\n            exit 1\n        fi\n    else\n        echo \"❌ 错误: 合并后的二进制文件不存在\"\n        exit 1\n    fi\n    \n    # 打开输出目录（方便查看结果）\n    echo \"===== Framework合并完成 =====\"\n    echo \"输出路径: ${INSTALL_DIR}\"\n    open \"${FMK_DIR_NAME}\"\nelse\n    echo \"===== 非build操作（ACTION=${ACTION}），跳过合并 =====\"\nfi\n";
+		};
+		AF9ADD7B65CB4081978D62A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWHOilSwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3D3D598AD6E175B25C6C3AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWHOilSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AB192A82E370032008A5CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB192B62E37004D008A5CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2AB192B12E370032008A5CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = T96256Q3UH;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2AB192B22E370032008A5CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = T96256Q3UH;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2AB192B42E370032008A5CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F797923588D22D8436A00B /* Pods-AWHOilSwift.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T96256Q3UH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.AWHOilSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AB192B52E370032008A5CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9861CC759F209C993ADB56D2 /* Pods-AWHOilSwift.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T96256Q3UH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.AWHOilSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AB192CD2E37004F008A5CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B4105CC15A2EF34FEC6D39 /* Pods-AWHOilSwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T96256Q3UH;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AWHOilSwiftDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.AWHOilSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AB192CE2E37004F008A5CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8296CF416DF6792A4107F06 /* Pods-AWHOilSwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T96256Q3UH;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AWHOilSwiftDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.AWHOilSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AB194242E37BE1C008A5CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T96256Q3UH;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AB194252E37BE1C008A5CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T96256Q3UH;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AB192A62E370032008A5CB2 /* Build configuration list for PBXProject "AWHOilSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB192B12E370032008A5CB2 /* Debug */,
+				2AB192B22E370032008A5CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB192B32E370032008A5CB2 /* Build configuration list for PBXNativeTarget "AWHOilSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB192B42E370032008A5CB2 /* Debug */,
+				2AB192B52E370032008A5CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB192CC2E37004F008A5CB2 /* Build configuration list for PBXNativeTarget "AWHOilSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB192CD2E37004F008A5CB2 /* Debug */,
+				2AB192CE2E37004F008A5CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB194232E37BE1C008A5CB2 /* Build configuration list for PBXAggregateTarget "AWHOilSwiftAGG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB194242E37BE1C008A5CB2 /* Debug */,
+				2AB194252E37BE1C008A5CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AB192A32E370032008A5CB2 /* Project object */;
+}
